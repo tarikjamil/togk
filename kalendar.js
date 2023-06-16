@@ -21,7 +21,11 @@ for (const monthName in months) {
   monthHeader.textContent = monthName;
   calendarItems.insertBefore(monthHeader, monthItems[0]);
 
+  // keep a reference to the node before which you want to insert items
+  let referenceNode = monthHeader.nextSibling;
+
+  // insert each item before the reference node
   monthItems.forEach((item) => {
-    calendarItems.insertBefore(item, monthHeader.nextSibling);
+    calendarItems.insertBefore(item, referenceNode);
   });
 }
