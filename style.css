@@ -1,0 +1,30 @@
+.main-wrapper {
+  opacity: 0;
+}
+.split-line {
+  overflow: hidden;
+}
+
+.navbar.is--scrolled {
+  background-color: #fdfbf6;
+}
+
+.navbar.is--scrolled .navlink {
+  color: #1a1a1a;
+}
+
+.navbar.is--scrolled .lottie-menu.is--black {
+  opacity: 1;
+}
+
+.navbar.is--scrolled .navbar-logo-link {
+  background-image: url(https://uploads-ssl.webflow.com/64046c6a19731c7578c00ba0/64061b07661adec11bdd5352_Frame.svg);
+}
+
+.accordion-trigger.open .arrow {
+  transform: rotate(180deg);
+}
+
+.accordion-response {
+  height: 0px;
+}
