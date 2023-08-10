@@ -28,3 +28,7 @@
 .accordion-response {
   height: 0px;
 }
+
+.w-editor-edit-fade-in .main-wrapper {
+  opacity: 1;
+}
